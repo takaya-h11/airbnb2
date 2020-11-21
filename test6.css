@@ -1,0 +1,1271 @@
+body{
+	font-family: Quicksand, 游ゴシック体, "Yu Gothic", YuGothic, "ヒラギノ角ゴシック Pro", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	font-size: 17px;
+	margin:0 ;
+}
+
+
+
+
+.sp-link-log{
+	cursor: pointer;
+	position:fixed;
+	top:0px;
+	z-index: 101;
+	background-color: white;
+	width: 100%;
+	padding-top: 30px;
+	padding-bottom: 10px;
+
+	
+}
+
+.fa-angle-up{
+	margin-left: 5px;
+}
+
+.true{
+	color:red;
+}
+
+.sp-menu-top{
+	display: none;
+	width: 100vw;
+ 	 height: 100vh;
+ 	 background-color: white;
+ 	 }
+ .sp-menu-top2{
+ 	margin-top: 10px;
+ }
+
+.sp-home{
+	display: block;
+	color: black;
+	font-size: 20px;
+	margin-left: 30px;
+	margin-top:80px;
+	margin-bottom: 50px;
+	padding-bottom: 50px;
+	border-bottom: 1px solid gray;
+
+}
+.sp-home:hover{
+	text-decoration: none;
+	color: black;
+
+}
+.sp-home:active{
+	text-decoration: none;
+	color: #008489;
+
+}
+@media screen and (max-width: 768px){
+.home{
+	margin-top:250px;
+}
+}
+.list{
+	color:black;
+	
+	}
+
+.list:hover{
+	text-decoration: none;
+	color:black;
+}
+.list:active{
+	text-decoration: none;
+	color:#008489;
+}
+
+
+.list2{
+	color:black;
+	width: 100%;
+	
+	}
+
+.list2:hover{
+	text-decoration: none;
+	color:black;
+}
+.list2:active{
+	text-decoration: none;
+	color:#008489;
+	width: 100%;
+}
+
+.list3{
+	color:black;
+	width: 100%;
+	
+	}
+
+.list3:hover{
+	text-decoration: none;
+	color:black;
+}
+
+.host{
+	width: 100%;
+	padding:10px 0;
+}
+
+.host:active{
+	border:1px solid blue;
+
+
+}
+
+.room:active{
+	color:#008489;
+}
+
+.profit:active{
+	color:black;
+}
+
+
+.sp-list{
+	list-style: none;
+	padding-left: 0;
+	font-size: 20px;
+	margin-left: 30px;
+	border-bottom: 1px solid gray;
+	}
+
+
+
+.sp-list li{
+	margin-bottom:30px;
+
+}
+
+
+
+.wrapper{
+	width: 100%;
+	overflow:hidden;
+	/*margin:0;*/
+	margin-top:0px;
+
+}
+
+.header{
+	position: relative;
+	}
+
+@media screen and (max-width: 768px){
+video{
+	display: none;
+}
+}
+
+
+.middle{
+	width: 50%;
+	min-width: 500px;
+	position: absolute;
+	top:160px;
+	left:100px;
+}
+@media screen and (max-width: 768px){
+.middle{
+	position: absolute;
+	top:320px;
+	left:50px;
+}
+}
+
+
+.top-img{
+	position: absolute;
+	top:0;
+	height: 850px;
+	width: 100%;
+	display: none;
+}
+
+.video{
+	color:white;
+}
+.video:hover{
+	color:white;
+}
+
+.vlog{
+	color:white;
+	font-weight: bold;
+	margin-top:20px;
+	margin-bottom: 20px;
+}
+
+@media screen and (max-width: 768px){
+.vlog{
+	color:black;
+}
+}
+
+.wm2{
+	font-weight: bold;
+	cursor: pointer;
+	color:white;
+}
+@media screen and (max-width: 768px){
+	.wm2{
+		color:black;
+	}
+}
+
+
+
+
+.mail-address2{
+	width: 30%;
+	min-width: 180px;
+	text-align: center;
+	border-radius: 3px;
+	padding: 5px 10px;
+	display: block;
+	font-weight: bold;
+	font-size: 14px;
+	outline: 0px solid #717171;
+ 	outline-offset: 0px;
+    transition: all 0.1s ease-in-out;
+	position: absolute;
+	top:45px;
+	left: 260px;
+	height:40px;
+	background-color: #008489;
+	color:white;
+}
+
+.mail-address2:before{
+ content:"メールアドレスを追加";
+ top: 10px;
+ left: 30px;
+ position: absolute;
+ 
+}
+
+
+
+
+.mail-address2:active{
+	outline: 2px ridge;
+  outline-color: #717171;
+  outline-offset: 10px;
+}
+
+
+
+.mail-address2:focus{
+	outline: 2px ridge;
+  outline-color: #717171;
+  outline-offset: 8px;
+}
+
+.play{
+	font-weight: bold;
+	font-size: 20px;
+	border:2px solid white;
+	width: 150px;
+	height: 50px;
+	position: absolute;
+	top:900px;
+	right:50px;
+	color: white;
+	border-radius: 3px;
+	text-align: center;
+	padding-top:10px;
+	cursor: pointer;
+	outline: 0px solid #717171;
+ 	outline-offset: 0px;
+    transition: all 0.1s ease-in-out;
+}
+
+.play:active{
+	outline: 2px ridge;
+  outline-color: #717171;
+  outline-offset: 10px;
+}
+.play:focus{
+	outline: 2px ridge;
+  outline-color: #717171;
+  outline-offset: 10px;
+}
+
+
+.fa-play{
+	margin-left:10px;
+	color:white;
+}
+
+
+
+.fa-pause{
+	margin-left:10px;
+	color:white;
+}
+
+.stop{
+	font-weight: bold;
+	font-size: 20px;
+	border:2px solid white;
+	width: 150px;
+	height: 50px;
+	position: absolute;
+	top:900px;
+	right:50px;
+	color: white;
+	border-radius: 3px;
+	text-align: center;
+	padding-top:10px;
+	cursor: pointer;
+	outline: 0px solid #717171;
+ 	outline-offset: 0px;
+    transition: all 0.1s ease-in-out;
+    display: none;
+}
+
+.stop:active{
+	outline: 2px ridge;
+  outline-color: #717171;
+  outline-offset: 10px;
+}
+.stop:focus{
+	outline: 2px ridge;
+  outline-color: #717171;
+  outline-offset: 10px;
+}
+
+
+
+
+/*スマホ用ナブバー*/
+
+
+.athome2{
+	font-size: 40px;
+	font-weight: bold;
+	color: white;
+	margin-bottom: 20px;
+	
+}
+
+#w-mail2{
+	display: block;
+	border-radius: 3px;	
+	border:1px solid #d3d3d3;
+	width: 70%;
+	min-width: 470px;
+	height: 60px;
+	padding-left: 5px;
+	background-color: white;
+	opacity: 0.6;
+	margin-right: 20px;
+
+}
+
+#w-mail2:focus{
+	outline: none;
+	border:1px solid #80C1C4;
+	opacity: 1;
+	
+}
+
+.detail{
+	color:white;
+}
+
+
+.detail2{
+	color:white;
+
+}
+.detail2:hover{
+	color:white;
+}
+@media screen and (max-width: 768px){
+	.detail2{
+	color:#008489;
+	display: block;
+}
+}
+
+/*トップナブバー*/
+.menu{
+	width: 100%;
+	margin-top:0px;
+	height:90px;
+	z-index: 99;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position:absolute;
+	top:0;
+}
+
+
+	
+
+.menu1{
+	display: flex;
+}
+
+@media screen and (max-width: 1400px){
+	.menu1{
+	display: none;
+}
+}
+
+.sw-menu{
+	display: flex;
+}
+
+
+nav .sw-menu{
+	width:100%;
+	list-style: none;
+	padding-left: 0;
+	margin-top: 5px;
+}
+
+
+
+
+.logo{
+	width: 5%;
+	height: 80px;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+
+.fa-chevron-down{
+	color:white;
+	cursor:pointer;
+}
+
+
+@media screen and (min-width: 1400px){
+.fa-chevron-down{
+	display: none;
+}
+}	
+
+
+
+
+
+
+.top-logo{
+	width: 30px;
+	margin-left: 30px;
+	cursor:pointer;
+}
+
+
+
+.top-logo2:before{
+	content:"";
+	position:absolute;
+	top:8px;
+	left:35px;
+	width: 10px;
+	height:10px;
+	border-right: 1px solid white;
+	border-bottom:1px solid white;
+	transform: rotate(45deg);
+	cursor:pointer;
+}
+}
+
+nav{
+	width:100%;
+}
+
+nav ul{
+	width:100%;
+	list-style: none;
+	padding-left: 0;
+}
+
+
+
+.top{
+	list-style: none;
+	margin-right:12px;
+	margin-left:12px;
+}
+
+.top2{
+	list-style: none;
+	margin-right:12px;
+	margin-left:12px;
+}
+
+
+.blink{
+	color:white;
+	font-weight: bold;
+}
+.blink:hover{
+	color:white;
+	font-weight: bold;
+	text-decoration: none;
+	border-bottom: 2px solid white;
+	padding-bottom: 35px;
+
+}
+
+.blink:active{
+	padding-top: 30px;
+	padding-bottom: 35px;
+}
+
+.blink-current{
+	color:white;
+	font-weight: bold;
+	padding-bottom: 30px;
+
+}
+
+
+.blink-current:hover{
+	text-decoration: none;
+	color: white;
+	border-bottom: 2px solid white;
+}
+.blink-current:active{
+	border:1.5px solid #90BAFE;
+	padding-top: 30px;
+	padding-bottom: 35px;
+}
+
+.blink-current2{
+	color:#008489;
+	font-weight: bold;
+	padding-bottom: 10px;
+}
+.blink-current2:before{
+	content: " ";
+	position: absolute;
+	top:35px;
+	left:10px;
+	height: 3px;
+	width: 35px;
+	background-color: #008489;
+
+}
+
+.blink-current2:hover{
+	text-decoration: none;
+	color:#008489;
+}
+.blink-current2:active{
+	border:1.5px solid #90BAFE;
+	padding-top: 5px;
+	padding-bottom: 7px;
+}
+
+
+
+.sideinfo{
+	display:flex;
+	align-items: center;
+	margin-right: 30px;
+	margin-top:20px;
+}
+
+
+
+.sidetitle{
+	margin-top:4px;
+	width: 100px;
+}
+.redbox{
+	color:white;
+	font-weight: bold;
+	background-color: #DB3742;
+	border-radius: 3px;
+	padding-right: 13px;
+	padding-left: 13px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-left: 10px;
+}
+
+.redbox:hover{
+	text-decoration: none;
+	color:white;
+}
+
+.redbox:checked{
+	text-decoration: none;
+	color:black;
+}
+
+.big{
+	font-weight: bold;
+	font-size: 20px;
+}
+/*トップナブバー終わり*/
+
+/*トップ画＋サイド白ボックス*/
+
+
+
+
+/*ヘッダー以下*/
+
+
+.last{
+	text-align: center;
+	margin-top:10px;
+	font-size: 20px;
+	width: 80%;
+}
+
+.image1{
+	position: relative;
+}
+
+
+.image1{
+	width: 100%;
+	height:335px;
+	background-image: url("image5-2/pc1.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin:0 auto;
+	background-position: center;
+}
+
+
+.image2{
+	width: 100%;
+	height:335px;
+	background-image: url("image5-2/pc3.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin:0 auto;
+	background-position: center;
+}
+.image3{
+	width: 100%;
+	height:335px;
+	background-image: url("image5-2/pc2.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin:0 auto;
+	background-position: center;
+}
+
+.image4{
+	width: 100%;
+	height:500px;
+	background-image: url("image5-2/pc4.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin:0 auto;
+	background-position: center;
+}
+
+.image5{
+	width: 100%;
+	height:500px;
+	background-image: url("image5-2/pc6.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin:0 auto;
+	background-position: center;
+}
+
+@media screen and (min-width: 768px){
+	.image5{
+		display: none;
+	}
+}
+
+.teamimg{
+	width: 100%;
+	height:500px;
+	background-image: url("image5-2/pc5.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin:0 auto;
+	background-position: center;
+}
+
+
+.space-img{
+	width: 100%;
+	height:500px;
+	background-image: url("image5-2/pc6.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin:0 auto;
+	background-position: center;
+}
+
+.stand{
+	width: 100%;
+	height:500px;
+	background-image: url("image5-2/pc7.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin:0 auto;
+	background-position: center;
+}
+
+.at-stand{
+	padding:100px 60px;
+}
+
+@media screen and (max-width: 768px){
+.at-stand{
+	padding:50px 30px;
+}
+}
+
+.p-stand{
+	font-size: 20px;
+}
+
+.box7-1{
+	background-color: #EBEBEB;
+	width: 100%;
+	height: 500px;
+}
+@media screen and (max-width: 768px){
+
+.box7-1{
+	height: 300px;
+}
+}
+
+
+.how{
+	color:#008489;
+	font-weight: bold;
+}
+
+.how:hover{
+	color:#008489;
+}
+
+
+.box2{
+	margin-bottom: 20px;
+}
+
+.at-home{
+	padding:180px 150px;
+}
+@media screen and (max-width: 1200px){
+	.at-home{
+	padding:80px 50px;
+	}
+}
+@media screen and (max-width: 768px){
+	.at-home{
+	padding:30px 30px;
+	}
+}
+.athome{
+	font-size: 35px;
+	font-weight: bold;
+	
+}
+
+
+.row-2{
+	display: flex;
+}
+
+@media screen and (max-width: 768px){
+.row-2{
+	display: flex;
+	flex-direction: column-reverse;
+}
+}
+
+
+
+.box2-1{
+	background-color: #EBEBEB;
+	width: 100%;
+	height: 500px;
+}
+
+@media screen and (max-width: 768px){
+	.box2-1{
+	width: 100%;
+	background-color: white;
+}
+}
+
+.at-team{
+	padding:180px 150px;
+
+}
+
+@media screen and (max-width: 1200px){
+	.at-team{
+	padding:180px 30px;
+	}
+}
+@media screen and (max-width: 768px){
+	.at-team{
+	padding:50px 30px;
+	}
+}
+
+.team{
+	font-size: 35px;
+	font-weight: bold;
+	color:white;
+}
+
+.p-team{
+color:white;
+font-weight: bold;	
+}
+
+.box3{
+	background-color: #006C70;
+	width: 100%;
+	height: 500px;
+
+}
+@media screen and (max-width: 768px){
+	.box3{
+	background-color: #006C70;
+	width: 100%;
+	height: 300px;
+
+}
+.box3-1{margin-top:20px;
+ }
+}
+
+
+
+.how2{
+	color:white;
+	font-weight: bold;
+}
+
+.how2:hover{
+	color:white;
+}
+
+.main2{
+	margin-bottom: 20px;
+}
+
+.main3{
+	margin-bottom: 20px;
+}
+
+.main4{
+	margin-bottom: 20px;
+}
+
+.main5{
+	margin-bottom: 50px;
+}
+.space{
+	font-size: 35px;
+	font-weight: bold;
+	
+}
+
+.box4-1{
+	background-color:#EBEBEB;
+	width: 100%;
+	height: 500px;	
+}
+@media screen and (max-width: 768px){
+.box4-1{
+	background-color:white;
+}
+}
+.at-space{
+	padding:180px 150px;
+}
+
+
+@media screen and (max-width: 1200px){
+	.at-space{
+	padding:180px 30px;
+	}
+}
+@media screen and (max-width: 768px){
+	.at-space{
+	padding:50px 30px;
+	}
+}
+
+
+.m4-title{
+	font-size: 35px;
+	font-weight: bold;
+	color:white;
+
+}
+.box5{
+	background-color: #006C70;
+	height: 300px;
+	width: 100%;
+	padding:50px 80px;
+}
+
+@media screen and (max-width: 1200px){
+.box5-1{
+	border-bottom: 2px solid white;
+	padding-bottom: 80px;
+}
+}
+.p-m4{
+	color: white;
+	font-weight: bold;
+}
+
+.box6{
+	background-color: #EBEBEB;
+	height: 425px;
+	width: 100%;
+	text-align: center;
+	padding-top: 60px;
+
+}
+
+
+
+
+
+
+
+
+/*footer*/
+
+
+
+.last1{
+	margin-top: 50px;
+
+}
+
+.info1 ul{
+	padding-left:0;
+}
+.info1 ul li{
+	list-style: none;
+}
+.info1 ul li:hover{
+	text-decoration: : none;
+}
+
+.footer-info{
+	font-weight: bold;
+	display: block;
+	margin-bottom: 10px;
+	font-size: 15px;
+}
+
+.footer-li{
+	color:gray;
+	font-weight: bold;
+	font-size: 15px;
+}
+.footer-li:hover{
+	color:gray;
+}
+
+.new{
+	margin-left: 5px;
+	padding:1px 5px;
+	color:white;
+	background-color: #006A70;
+	font-size: 13px;
+	border-radius: 3px;
+	font-weight: bold;
+}
+
+.logo1{
+	height: 20px;
+	width: 20px;
+	margin-right: 10px;
+	margin-top: 20px;
+}
+
+.footer-box{
+	border-top:1px solid #F5F5F5;
+	padding-top: 20px;
+	display: flex;
+}
+
+.copyright{
+	color:gray;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+.copyright:hover{
+	color:gray;
+}
+
+.copyright2{
+	color:gray;
+	font-weight: bold;
+	font-size: 15px;
+	padding:0;
+}
+.icon{
+	position: absolute;
+	top:0;
+	right:30px;
+}
+
+.bottom-icon{
+	position: relative;
+}
+
+.fa-facebook-f,.fa-twitter,.fa-instagram-square{
+	color:gray;
+	margin-left: 15px;
+}
+
+
+
+/*画面幅が784pxまでの時*/
+
+.row3{
+	display: flex;
+	flex-direction: row;
+}
+/*画面幅が544pxまでの時*/
+@media screen and (max-width: 768px){
+.row3{
+		display: flex;
+		flex-direction: column-reverse;
+	}
+}
+
+
+@media screen and (max-width: 1200px){
+.detail{
+	margin-top: 60px;
+}
+}
+
+
+@media screen and (max-width: 1200px){
+.big9{
+	margin-bottom:0;
+}
+}
+@media screen and (max-width: 1200px){
+.image1,.image2,.image3{
+	border:2px solid #F0F0F0;
+	border-radius: 3px;
+}
+}
+
+@media screen and (max-width: 768px){
+.box12,.icon{
+	display: none;
+}
+}
+
+.center{
+	width: 100%;
+	margin:0 auto;
+}
+
+.work{
+	text-align: center;
+	font-weight: bold;
+	font-size: 50px;
+	margin-bottom: 20px;
+}
+@media screen and (max-width: 1200px){
+.work{
+	font-size: 30px;
+}
+}
+.wm{
+	font-weight: bold;
+	cursor: pointer;
+}
+
+#w-mail{
+	display: block;
+	margin-right: auto;
+	margin-left: 0;
+	border-radius: 3px;
+	margin-bottom: 18px;
+	border:1px solid #d3d3d3;
+	width: 450px;
+	height: 60px;
+	padding-left: 5px;
+	background-color: white;
+	text-align: left;
+	 opacity: 0.6;
+
+}
+
+#w-mail:focus{
+	outline: none;
+	border:1px solid #80C1C4;
+	 opacity: 1;
+	
+	
+}
+
+.mail-box{
+	position: relative;
+	width: 520px;
+
+}
+
+.mail-address{
+	width: 170px;
+	text-align: center;
+	border-radius: 3px;
+	padding: 5px 10px;
+	display: block;
+	font-weight: bold;
+	font-size: 14px;
+	outline: 0px solid #717171;
+ 	outline-offset: 0px;
+    transition: all 0.1s ease-in-out;
+	position: absolute;
+	top:45px;
+	right: 100px;
+	height:40px;
+	background-color: #008489;
+	color:white;
+}
+
+.mail-address:before{
+ content:"メールアドレスを追加";
+ top: 10px;
+ right: 20px;
+ position: absolute;
+ 
+}
+.mail-address:focus{
+ content:"メールアドレスを追加";
+ top: 10px;
+ right: 20px;
+ position: absolute;
+
+ 
+}
+
+
+
+
+.mail-address:active{
+	outline: 2px ridge;
+  outline-color: #717171;
+  outline-offset: 10px;
+}
+
+
+
+.mail-address:focus{
+	outline: 2px ridge;
+  outline-color: #717171;
+  outline-offset: 8px;
+}
+
+.mail-address2{
+	width: 15%;
+	text-align: center;
+	border-radius: 3px;
+	padding: 5px 10px;
+	display: block;
+	font-weight: bold;
+	font-size: 14px;
+	outline: 0px solid #717171;
+ 	outline-offset: 0px;
+    transition: all 0.1s ease-in-out;
+	position: absolute;
+	top:45px;
+	left: 580px;
+	height:40px;
+	background-color: #008489;
+	color:white;
+}
+@media screen and (max-width: 1200px){
+	.mail-address2{
+	left:500px;
+}
+}
+@media screen and (max-width: 992px){
+	.mail-address2{
+	left:380px;
+}
+}
+@media screen and (max-width: 768px){
+	.mail-address2{
+	left:270px;
+}
+}
+
+
+.mail-address2:before{
+ content:"メールアドレスを追加";
+ top: 10px;
+ right: 10px;
+ position: absolute;
+ 
+}
+
+
+
+
+.mail-address2:active{
+	outline: 2px ridge;
+  outline-color: #717171;
+  outline-offset: 10px;
+}
+
+
+
+.mail-address2:focus{
+	outline: 2px ridge;
+  outline-color: #717171;
+  outline-offset: 8px;
+}
+
+#w-mail2{
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	border-radius: 3px;
+	margin-bottom: 18px;
+	border:1px solid #d3d3d3;
+	width: 35%;
+	height: 60px;
+	padding-left: 5px;
+	background-color: white;
+	opacity: 0.6;
+
+}
+
+#w-mail2:focus{
+	outline: none;
+	border:1px solid #80C1C4;
+	opacity: 1;
+	
+}
+
+.mail-box2{
+	position: relative;
+
+}
